@@ -3,6 +3,8 @@
 ## Overview
 This project recreates a classic arcade shooter system inspired by *Galaxian*, where players control a starfighter (the "Hero") to defend Earth from descending alien invaders. Built on a **Raspberry Pi 4**, the game integrates physical GPIO controls with Python-based game development using the Pygame library. Players use buttons to move the starfighter, shoot bullets, and pause/exit the game, while an LED and speaker provide visual and audio feedback. The project demonstrates hardware-software integration, combining circuit design with real-time game mechanics like collision detection, scoring, and health management.
 
+    ![Arcade demo](demo/Gameclip.gif)
+    
 ### Key Features
 - **Physical Controls**: Four buttons connected to GPIO pins for left/right movement, shooting, and pause/resume/exit functionality.
 - **Game Mechanics**: Real-time scoring, hero health system, enemy spawning, and collision detection.
